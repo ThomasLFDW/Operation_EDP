@@ -1,0 +1,43 @@
+/////////////////////////////////////////
+//Intro
+/////////////////////////////////////////
+
+author = "Raztoux";
+onLoadName = "Opération: Emeis Den Prépei";
+onLoadMission = "Les forces de l'OTAN souhaitent conquérir Altis par la force après le refus des indépendantistes de ce rattacher à leurs causes.";
+loadScreen = "Media\img\heli.jpg";
+
+/////////////////////////////////////////
+//Overview
+/////////////////////////////////////////
+
+overviewText = "<t align='center'>La Grèce, après le boum économique et la pression de la communauté internationale a décidé de rejoindre les forces de l'OTAN.<br />Un groupe d'indépendantiste de l'île d'Altis ne souhaite pas ce rattacher au groupe politico-militaire, et après moults débats, l'OTAN passe à l'attaque afin de terminer ce conflit par la force.<br /><br />Opération Wolf</t>";
+overviewPicture = "Media\img\heli.jpg";
+
+/////////////////////////////////////////
+//Channels
+/////////////////////////////////////////
+
+disableChannels[] = {0,2,6};
+
+class Header
+{
+	gameType=TDM;
+	minPlayers=1;
+	maxPlayers=50;
+};
+
+////////////////////////////////////////////////////////////////////////////////
+// Viewdistance
+////////////////////////////////////////////////////////////////////////////////
+
+#include "taw_vd\dialog.hpp"
+
+class CfgFunctions
+{
+	#include "taw_vd\CfgFunctions.hpp"
+};
+
+
+
+
